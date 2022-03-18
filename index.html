@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -88,7 +89,7 @@
             <h2 class="section-title">Biz qanday ishlaymiz?</h2>
             <p class="section-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br>sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
             <ul class="section-list">
-                <li class="section-item">
+                <li class="section-item" data-aos="zoom-in-right"  data-aos-duration="3000">
                     <img src="images/step-illlustration.png" alt="">
                 </li>
                 <li class="section-item">
@@ -101,12 +102,14 @@
                     <b>Bir necha yechimlarni taklif qilamiz</b>
                     <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. <br>Nam facilisis</p>
                 </li>
-                <li class="section-item">
+                <li class="section-item" data-aos="zoom-in-left"  data-aos-duration="3000">
                     <img src="images/step-illlustration2.png" alt="">
                 </li>
             </ul>
             <ul class="section-list">
-                <li class="section-item">
+                <li class="section-item" data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-easing="ease-in-sine">
                     <img src="images/step-illustration3.png" alt="">
                 </li>
                 <li class="section-item">
@@ -119,12 +122,14 @@
                     <b>A’lo sifat bilan bajarib topshiramiz</b>
                     <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. <br>Nam facilisis</p>
                 </li>
-                <li class="section-item">
+                <li class="section-item" data-aos="fade-left"
+                data-aos-duration="3000"
+                data-aos-easing="ease-in-sine">
                     <img src="images/step-illustration4.png" alt="">
                 </li>
             </ul>
             <ul class="section-list">
-                <li class="section-item">
+                <li class="section-item"  data-aos="fade-right"  data-aos-duration="3000">
                     <img src="images/step-illustration5.png" alt="">
                 </li>
                 <li class="section-item">
@@ -201,5 +206,10 @@
             </ul>
         </div>
     </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
