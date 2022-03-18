@@ -67,20 +67,22 @@ p {
 }
 
 .nav .nav-list .nav-item {
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .nav .nav-list .nav-item a {
+    padding: 21px 10px;
     color: black;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .nav .nav-list .nav-item a:hover {
-    color: #00BAFC;
+    /* color: #00BAFC; */
+    border-bottom: 3px solid black;
 }
 
 .nav .nav-list .nav-item:last-child a {
@@ -305,4 +307,65 @@ p {
 
 .content .content-form .content-btn {
     margin: 16px 0px;
+}
+
+/* --------------footer start--------------- */
+
+.footer {
+    padding: 50px 0px;
+    background-color: #191919;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: start;
+}
+
+.footer .footer-list {
+    margin-right: 120px;
+}
+
+.footer .footer-list:first-child {
+    width: 280px;
+}
+
+.footer .footer-list .footer-item {
+    margin: 7px 0;
+}
+
+.footer .footer-list .footer-item:first-child {
+    margin-bottom: 14px;
+}
+
+.footer .footer-list .footer-item b {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: white;
+}
+
+.footer .footer-list .footer-item p {
+    color: white;
+}
+
+.footer .footer-list .footer-item a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.footer .footer-list .footer-item a img {
+    color: black;
+    margin-right: 10px;
+}
+
+.footer .footer-list .footer-item a:hover {
+    color: #00BAFC;
 }
