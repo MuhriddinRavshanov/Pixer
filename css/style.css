@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 ul, ol {
     list-style: none;
 }
@@ -29,6 +33,7 @@ button {
 button:hover {
     background-color: white;
     color: #00BAFC;
+    transform: scale(0.91);
 }
 
 p {
@@ -153,20 +158,26 @@ p {
 }
 
 .box .box-list .box-item {
+    width: 300px;
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    padding: 30px;
+    padding: 24px;
     margin: 40px;
     transition: 0.3s;
     border: 1px solid white;
 }
 
 .box .box-list .box-item:hover {
-    border: 1px solid rgba(0, 0, 0, 0.308);
-    transform: scale(1.1)
+    transform: scale(1.01);
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.2);
+}
+
+.box .box-list .box-item img {
+    height: 130px;
+    width: auto;
 }
 
 .box .box-list .box-item b {
@@ -195,6 +206,11 @@ p {
 .bottom-box a {
     text-decoration: underline;
     color: #00BAFC;
+    transition: 0.3s;
+}
+
+.bottom-box a:hover {
+    text-decoration: none;
 }
 
 
