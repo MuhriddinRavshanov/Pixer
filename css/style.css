@@ -122,7 +122,7 @@ p {
 }
 
 .main .main-list, .main .main-video {
-    width: 40%;
+    width: 45%;
 }
 
 .main .main-list .main-item {
@@ -132,8 +132,12 @@ p {
 .main .main-list .main-item .main-title {
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 34px;
     line-height: 130%;
+}
+
+.main .main-list .main-item .main-text {
+    font-size: 20.1px;
 }
 
 /* -------------box start--------------- */
@@ -158,16 +162,21 @@ p {
 }
 
 .box .box-list .box-item {
+    text-align: center;
     width: 300px;
-    display: flex;
-    flex-direction: column;
+    height: 250px;
+    padding: 24px;
     background: #FFFFFF;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    padding: 24px;
     margin: 40px;
     transition: 0.3s;
-    border: 1px solid white;
+    cursor: pointer;
+}
+
+.box .box-list .box-item a {
+    display: flex;
+    flex-direction: column;
 }
 
 .box .box-list .box-item:hover {
@@ -177,7 +186,7 @@ p {
 
 .box .box-list .box-item img {
     height: 130px;
-    width: auto;
+    margin: 0 auto;
 }
 
 .box .box-list .box-item b {
