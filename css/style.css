@@ -509,7 +509,8 @@ p {
         flex-direction: column-reverse;
     } */
     .footer-list:first-child {
-        width: 480px;
+        width: 80%;
+        margin: 0 auto;
         border-bottom: 1px solid rgba(255, 255, 255, 0.281);
     }
 }
@@ -612,5 +613,10 @@ p {
     }
     .bottom-box {
         flex-direction: column;
+    }
+    .footer-list:first-child {
+        width: auto;
+        margin: 0;
+        border-bottom: 0px solid rgba(255, 255, 255, 0.281);
     }
 }
