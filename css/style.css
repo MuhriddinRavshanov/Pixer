@@ -404,6 +404,13 @@ p {
     color: #00BAFC;
 }
 
+.footer .container div {
+    border: 1px solid #f3f3f371;
+    display: none;
+    width: 100%;
+}
+
+
 #myBtn {
     height: 60px;
     width: 60px;
@@ -527,9 +534,15 @@ p {
         text-align: center;
     }
 
+    .footer .container {
+        justify-content: space-around;
+    }
+
     .footer-list:first-child {
         width: 80%;
         margin: 0 auto;
+        border-bottom: 1px solid #f3f3f371;
+        margin-bottom: 20px;
     }
 }
 
@@ -646,12 +659,24 @@ p {
         width: 95%;
     }
 
-    .footer-list {
-        border-bottom: 1px solid #F3F3F3;
+    .content-form {
+        width: 98%;
     }
+
+    .footer-list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer .container div {
+        display: block;
+        margin-bottom: 20px;
+    }
+
     .footer-list:first-child {
         width: auto;
         margin: 0;
+        border-bottom: 0px solid #f3f3f371;
     }
     .text {
         width: 100%;
