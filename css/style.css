@@ -646,6 +646,9 @@ p {
         width: 95%;
     }
 
+    .footer-list {
+        border-bottom: 1px solid #F3F3F3;
+    }
     .footer-list:first-child {
         width: auto;
         margin: 0;
