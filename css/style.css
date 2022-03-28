@@ -419,6 +419,10 @@ p {
     .nav-item {
         margin-left: 13px;
     }
+    .nav-item a {
+        padding: 20px 9px;
+        font-size: 14px;
+    }
 }
 
 @media(max-width:1020px){
@@ -427,6 +431,10 @@ p {
     }
     .nav-item {
         margin-left: 12px;
+    }
+    .nav-item a {
+        padding: 18px 9px;
+        font-size: 14px;
     }
 }
 
