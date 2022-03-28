@@ -466,7 +466,6 @@ p {
     }
     .nav-item a {
         padding: 18px 9px;
-        font-size: 14px;
     }
     .main-video iframe {
         height: 270px;
@@ -485,7 +484,6 @@ p {
     }
     .nav-item a {
         padding: 16px 7px;
-        font-size: 14px;
     }
     .main-video iframe {
         height: 265px;
@@ -504,7 +502,6 @@ p {
     }
     .nav-item a {
         padding: 15px 6px;
-        font-size: 12px;
     }
     .main .container {
         justify-content: center;
