@@ -64,18 +64,18 @@ p {
     align-items: center;
 }
 
-.nav .nav-list {
+.nav-list {
     display: flex;
     justify-content: end;
     align-items: center;
     margin: 20px 0px;
 }
 
-.nav .nav-list .nav-item {
+.nav-item {
     margin-left: 15px;
 }
 
-.nav .nav-list .nav-item a {
+.nav-item a {
     padding: 21px 10px;
     color: black;
     font-style: normal;
@@ -85,11 +85,11 @@ p {
     transition: 0.1s;
 }
 
-.nav .nav-list .nav-item a:hover {
+.nav-item a:hover {
     border-bottom: 3px solid black;
 }
 
-.nav .nav-list .nav-item:last-child a {
+.nav-item:last-child a {
     border-bottom: none;
 }
 
@@ -105,22 +105,22 @@ p {
     align-items: center;
 }
 
-.main .main-list, .main .main-video {
+.main-list, .main-video {
     width: 45%;
 }
 
-.main .main-list .main-item {
+.main-item {
     margin: 30px 0px;
 }
 
-.main .main-list .main-item .main-title {
+.main-title {
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 130%;
 }
 
-.main .main-list .main-item .main-text {
+.main-text {
     font-size: 20.1px;
 }
 
@@ -131,7 +131,7 @@ p {
     text-align: center;
 }
 
-.box .box-title {
+.box-title {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -139,13 +139,13 @@ p {
     margin-bottom: 20px;
 }
 
-.box .box-list {
+.box-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.box .box-list .box-item {
+.box-item {
     text-align: center;
     width: 300px;
     height: 250px;
@@ -158,22 +158,22 @@ p {
     cursor: pointer;
 }
 
-.box .box-list .box-item a {
+.box-item a {
     display: flex;
     flex-direction: column;
 }
 
-.box .box-list .box-item:hover {
+.box-item:hover {
     transform: scale(1.01);
     box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.2);
 }
 
-.box .box-list .box-item img {
+.box-item img {
     height: 130px;
     margin: 0 auto;
 }
 
-.box .box-list .box-item b {
+.box-item b {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -182,7 +182,7 @@ p {
     margin: 10px 0px;
 }
 
-.box .box-list .box-item p {
+.box-item p {
     color: #000000;
 }
 
@@ -192,7 +192,7 @@ p {
     align-items: center;
 }
 
-.bottom-box .box-btn, .bottom-box a{
+.box-btn, .bottom-box a{
     margin: 10px;
 }
 
@@ -204,16 +204,17 @@ p {
 
 .bottom-box a:hover {
     text-decoration: none;
+    color: blue;
 }
 
 
-/* section start */
+/* ----------------section start ------------------------*/
 
 .section {
     padding: 70px 0px;
 }
 
-.section .section-title {
+.section-title {
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -222,21 +223,21 @@ p {
     margin-bottom: 20px;
 }
 
-.section .section-text {
+.section-text {
     text-align: center;
 }
 
-.section .section-list {
+.section-list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section .section-list .section-item {
+.section-item {
     margin:20px;
 }
 
-.section .section-list .section-item b {
+.section-item b {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -255,9 +256,10 @@ p {
     padding: 70px 0px;
     background-color: #00BAFC;
     text-align: center;
+    width: 100%;
 }
 
-.content .content-title {
+.content-title {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -265,13 +267,13 @@ p {
     color: #FFFFFF;
 }
 
-.content .content-text {
+.content-text {
     color: white;
     margin: 16px 0px;
     order: 1;
 }
 
-.content .content-form {
+.content-form {
     width: 348px;
     margin: 0 auto;
     padding: 24px;
@@ -282,7 +284,7 @@ p {
     align-items: center;
 }
 
-.content .content-form input {
+.content-form input {
     width: 300px;
     height: 56px;
     font-style: normal;
@@ -298,7 +300,7 @@ p {
 }
 
 
-.content .content-form select {
+.content-form select {
     width: 300px;
     height: 56px;
     font-style: normal;
@@ -313,7 +315,7 @@ p {
     border-radius: 5px;
 }
 
-.content .content-form .content-btn {
+.content-btn {
     margin: 16px 0px;
 }
 
@@ -326,26 +328,29 @@ p {
 
 .footer .container {
     display: flex;
-    justify-content: start;
 }
 
-.footer .footer-list {
+.footer-list {
     margin-right: 120px;
 }
 
-.footer .footer-list:first-child {
+.footer-list:last-child {
+    margin-right: 0px;
+}
+
+.footer-list:first-child {
     width: 280px;
 }
 
-.footer .footer-list .footer-item {
+.footer-item {
     margin: 7px 0;
 }
 
-.footer .footer-list .footer-item:first-child {
+.footer-item:first-child {
     margin-bottom: 14px;
 }
 
-.footer .footer-list .footer-item b {
+.footer-item b {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -353,11 +358,11 @@ p {
     color: white;
 }
 
-.footer .footer-list .footer-item p {
+.footer-item p {
     color: white;
 }
 
-.footer .footer-list .footer-item a {
+.footer-item a {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -369,12 +374,12 @@ p {
     transition: 0.3s;
 }
 
-.footer .footer-list .footer-item a img {
+.footer-item a img {
     color: black;
     margin-right: 10px;
 }
 
-.footer .footer-list .footer-item a:hover {
+.footer-item a:hover {
     color: #00BAFC;
 }
 
@@ -405,4 +410,76 @@ p {
 #myBtn:hover {
     color: #00BAFC;
     transform: scale(0.9);
+}
+
+@media(max-width:1160px){
+    .container {
+        width: 1000px;
+    }
+    .nav-item {
+        margin-left: 13px;
+    }
+}
+
+@media(max-width:1020px){
+    .container {
+        width: 900px;
+    }
+    .nav-item {
+        margin-left: 12px;
+    }
+}
+
+@media(max-width: 920px) {
+    .container {
+        width: 800px;
+    }
+    .nav-item {
+        margin-left: 10px;
+    }
+}
+  
+@media(max-width: 820px) {
+    .container {
+        width: 700px;
+    }
+    .nav-item {
+        margin-left: 9px;
+    }
+}
+
+@media(max-width: 720px) {
+    .container {
+        width: 600px;
+    }
+    .nav-item {
+        margin-left: 8px;
+    }
+}
+
+@media(max-width: 620px) {
+    .container {
+        width: 500px;
+    }
+    .nav-item {
+        margin-left: 7px;
+    }
+}
+
+@media(max-width: 520px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media(max-width: 420px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media(max-width: 300px) {
+    .container {
+        width: 90%;
+    }
 }
