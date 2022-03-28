@@ -98,7 +98,8 @@ p {
     cursor: pointer;
 }
 .nav span img {
-    width: 40px;
+    width: 30px;
+    margin: 20px 0px;
 }
 /* -----------------main start---------------------- */
 
