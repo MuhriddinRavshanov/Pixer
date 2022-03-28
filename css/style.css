@@ -151,6 +151,11 @@ p {
     margin-bottom: 20px;
 }
 
+.text {
+    width: 55%;
+    margin: 0 auto 40px;
+}
+
 .box-list {
     display: flex;
     justify-content: center;
@@ -284,7 +289,7 @@ p {
 
 .content-text {
     color: white;
-    margin: 16px 0px;
+    margin: 16px auto;
     order: 1;
 }
 
@@ -458,6 +463,9 @@ p {
     .main-video iframe {
         height: 270px;
     }
+    .text {
+        width: 70%;
+    }
 }
 
 @media(max-width: 920px) {
@@ -474,6 +482,9 @@ p {
     .main-video iframe {
         height: 265px;
     }
+    .text {
+        width: 75%;
+    }
 }
   
 @media(max-width: 820px) {
@@ -489,9 +500,11 @@ p {
     }
     .main .container {
         justify-content: center;
+        flex-direction: column-reverse;
     }
     .main-list, .main-video {
         width: 90%;
+        text-align: center;
     }
     .main-video iframe {
         height: 360px;
@@ -500,18 +513,23 @@ p {
         width: 44%;
         margin: 40px 3%;
     }
-    .section-list:nth-child(4) {
+
+    .text {
+        width: 80%;
+    }
+    
+    .section-lists {
         display: flex;
         flex-direction: column-reverse;
     }
-    /* .section-list:nth-child(4) {
-        display: flex;
-        flex-direction: column-reverse;
-    } */
+
+    .section-list .section-item {
+        text-align: center;
+    }
+
     .footer-list:first-child {
         width: 80%;
         margin: 0 auto;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.281);
     }
 }
 
@@ -539,6 +557,9 @@ p {
         width: 46%;
         margin: 30px 2%;
     }
+    .text {
+        width: 85%;
+    }
 }
 
 @media(max-width: 620px) {
@@ -565,6 +586,9 @@ p {
         width: 48%;
         margin: 30px 1%;
     }
+    .text {
+        width: 90%;
+    }
 }
 
 @media(max-width: 520px) {
@@ -587,6 +611,9 @@ p {
     .box-item {
         width: 90%;
         margin: 30px auto;
+    }
+    .text {
+        width: 95%;
     }
 }
 
@@ -614,9 +641,16 @@ p {
     .bottom-box {
         flex-direction: column;
     }
+
+    .section-item img {
+        width: 95%;
+    }
+
     .footer-list:first-child {
         width: auto;
         margin: 0;
-        border-bottom: 0px solid rgba(255, 255, 255, 0.281);
+    }
+    .text {
+        width: 100%;
     }
 }
