@@ -305,7 +305,7 @@ p {
 }
 
 .content-form input {
-    width: 85%;
+    width: 100%;
     height: 56px;
     font-style: normal;
     font-weight: 400;
@@ -321,7 +321,7 @@ p {
 
 
 .content-form select {
-    width: 85%;
+    width: 100%;
     height: 56px;
     font-style: normal;
     font-weight: 400;
