@@ -439,13 +439,12 @@ p {
 #myBtn:active {
     color: #00BAFC;
     transform: scale(0.9);
-    transition-delay: 5s;
 }
 
-#myBtn:hover {
+/* #myBtn:hover {
     color: #00BAFC;
     transform: scale(0.9);
-}
+} */
 
 @media(max-width:1160px){
     .container {
@@ -627,8 +626,8 @@ p {
         height: 280px;
     }
     .box-item {
-        width: 48%;
-        margin: 30px 1%;
+        width: 80%;
+        margin: 30px auto;
     }
     .text {
         width: 90%;
