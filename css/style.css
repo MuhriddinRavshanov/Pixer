@@ -436,7 +436,7 @@ p {
     right: 10px;
 }
 
-#myBtn:hover {
+#myBtn:active {
     color: #00BAFC;
     transform: scale(0.9);
 }
