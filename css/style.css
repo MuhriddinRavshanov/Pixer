@@ -552,6 +552,10 @@ p {
         border-bottom: 1px solid #f3f3f371;
         margin-bottom: 20px;
     }
+    #myBtn {
+        bottom: 18px;
+        right: 27px;
+    }
 }
 
 @media(max-width: 720px) {
@@ -583,6 +587,10 @@ p {
     }
     .section-list .section-item img {
         width: 42%;
+    }
+    #myBtn {
+        bottom: 16px;
+        right: 24px;
     }
 }
 
@@ -616,6 +624,10 @@ p {
     .section-list .section-item img {
         width: 46%;
     }
+    #myBtn {
+        bottom: 14px;
+        right: 21px;
+    }
 }
 
 @media(max-width: 520px) {
@@ -644,6 +656,10 @@ p {
     }
     .section-list .section-item img {
         width: 50%;
+    }
+    #myBtn {
+        bottom: 12px;
+        right: 18px;
     }
 }
 
@@ -697,5 +713,9 @@ p {
     }
     .text {
         width: 100%;
+    }
+    #myBtn {
+        bottom: 10px;
+        right: 15px;
     }
 }
