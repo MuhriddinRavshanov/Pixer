@@ -442,7 +442,7 @@ p {
     transition-delay: 5s;
 }
 
-#myBtn {
+#myBtn:hover {
     color: #00BAFC;
     transform: scale(0.9);
 }
