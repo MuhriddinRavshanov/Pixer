@@ -556,6 +556,9 @@ p {
         bottom: 18px;
         right: 27px;
     }
+    #myBtn {
+        transform: scale(0.95);
+    }
 }
 
 @media(max-width: 720px) {
@@ -591,6 +594,9 @@ p {
     #myBtn {
         bottom: 16px;
         right: 24px;
+    }
+    #myBtn {
+        transform: scale(0.9);
     }
 }
 
@@ -628,6 +634,9 @@ p {
         bottom: 14px;
         right: 21px;
     }
+    #myBtn {
+        transform: scale(0.88);
+    }
 }
 
 @media(max-width: 520px) {
@@ -660,6 +669,9 @@ p {
     #myBtn {
         bottom: 12px;
         right: 18px;
+    }
+    #myBtn {
+        transform: scale(0.85);
     }
 }
 
