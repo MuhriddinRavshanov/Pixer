@@ -439,6 +439,12 @@ p {
 #myBtn:active {
     color: #00BAFC;
     transform: scale(0.9);
+    transition-delay: 5s;
+}
+
+#myBtn {
+    color: #00BAFC;
+    transform: scale(0.9);
 }
 
 @media(max-width:1160px){
